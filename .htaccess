@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule "^trang-chu.html$" "index.php"
+RewriteRule "^san-pham.html$" "shop.php"
+RewriteRule "gio-hang.html$" "cart.php"
+RewriteRule	 "^(.*)-(.*).html$"	"single-product.php?pid=$1&&id_cat=1&&td=$2"
+
